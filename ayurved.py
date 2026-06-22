@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 
 # Set page config
 st.set_page_config(
-    page_title="AyurGenix AI",
+    page_title="Ayurved",
     page_icon="🏥",
     layout="wide"
 )
@@ -118,7 +118,8 @@ disease_list = label_encoders["Disease"].classes_
 
 l,c,r = st.columns([1,4,1])
 with c:
-    st.title("🏥 AyurGenix AI - Disease Prediction System")
+    st.title("🏥 Ayurved ")
+    st.title(" Ayurvedic solution prediction system ")
     st.title("")
 
 left,center,right = st.columns(3)
