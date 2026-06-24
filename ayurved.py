@@ -274,5 +274,5 @@ if prediction is not None:
             st.markdown(f"### {field}")
             st.success(value)
 
-    st.balloons()
+    #st.balloons()
 
